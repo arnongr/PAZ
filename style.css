@@ -7,18 +7,37 @@
     background-color: #909090;
     height: 105px;
 }
+.container-header   {
+    position: relative;
+    margin: 0 auto;
+    width: 900px;
+    height: 105px;
+}
+
+.language   {
+    display: inline;
+    width: 60px;
+    position: absolute;
+    left: 180px;
+    top: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.search-bar {
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
 .container {
-    position: fixed;
     top: 10px;
     margin: 0 auto;
     width: 900px;
     height: 105px;
     border-style: solid;
 }
-/* .language   {
-    position: fixed;
-    float: left;
-} */
+
 
 
 
