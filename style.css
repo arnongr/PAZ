@@ -1,0 +1,24 @@
+*  {
+    direction: rtl;
+    font-family: 'Arial (Hebrew)', Arial;
+}
+
+.header  {
+    background-color: #909090;
+    height: 105px;
+}
+.container {
+    position: fixed;
+    top: 10px;
+    margin: 0 auto;
+    width: 900px;
+    height: 105px;
+    border-style: solid;
+}
+/* .language   {
+    position: fixed;
+    float: left;
+} */
+
+
+
