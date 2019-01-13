@@ -37,7 +37,24 @@
     height: 105px;
     border-style: solid;
 }
-
-
+.menu   {
+    position: absolute;
+    top: 40px;
+}
+nav > ul > li > a  {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    background-color: #909090;
+    padding: 5px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+nav > ul    {
+    list-style: none;
+}
+.dropdown   {
+    position: relative;
 
 
