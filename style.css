@@ -30,13 +30,7 @@
     left: 0px;
     top: 10px;
 }
-.container {
-    top: 10px;
-    margin: 0 auto;
-    width: 900px;
-    height: 105px;
-    border-style: solid;
-}
+
 .menu   {
     position: absolute;
     top: 60px;
@@ -82,7 +76,31 @@ nav > ul > li > a:hover, .dropdown:hover > a {
     text-align: center;
     border-left: 1px solid rgb(165, 165, 165);
     border-right: 1px solid rgb(165, 165, 165);
-
 }
-
-
+.img-container {
+    position: relative;
+    top: 10px;
+    margin: 0 auto;
+    width: 900px;
+    height: 105px;
+    border-style: solid;
+}
+.column-1   {
+    position: relative;
+    z-index: 10;
+    width: 293px;
+    height: 355px;
+    float: right;
+}
+.column-2   {
+    float: right;
+    z-index: 10;
+    width: 293px;
+    height: 355px;
+}
+.column-3   {
+    float: right;
+    z-index: 10;
+    width: 293px;
+    height: 355px;
+}
