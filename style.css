@@ -83,7 +83,7 @@ nav > ul > li > a:hover, .dropdown:hover > a {
 }
 .img-container {
     position: relative;
-    top: 10px;
+    top: 30px;
     margin: 0 auto;
     width: 900px;
     height: 355px;
@@ -96,14 +96,18 @@ nav > ul > li > a:hover, .dropdown:hover > a {
     float: right;
 }
 .column-2   {
-    padding-right: 10px;
+    display: inline;
+    position: relative;
     float: right;
+    right: 10px;
     width: 293px;
     height: 355px;
 }
 .column-3   {
-    padding-right: 10px;
+    display: inline;
+    position: relative;
     float: right;
+    right: 20px;
     width: 293px;
     height: 355px;
 }
