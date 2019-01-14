@@ -2,6 +2,9 @@
     direction: rtl;
     font-family: 'Arial (Hebrew)', Arial;
 }
+body    {
+    line-height: 1;
+}
 
 .header  {
     background-color: #909090;
@@ -106,7 +109,7 @@ nav > ul > li > a:hover, .dropdown:hover > a {
 }
 .text-on-img    {
     padding: 0px;
-    background-color: rgba(144,144,144,0.8);
+    background-color: rgba(130,130,130,0.9);
     color: white;
     position: absolute;
     right: 10px;
@@ -116,12 +119,26 @@ nav > ul > li > a:hover, .dropdown:hover > a {
     padding: 10px;
 }
 .header-on-text {
+    display: block;
     margin: 0;
-    padding: 2px;
+    padding: 0px;
     font-size: 14px;
     font-weight: bold;
 }
 .small-text {
+    display: block;
     font-size: 13px;
     margin-top: 4px;
+}
+.readMore   {
+    text-decoration-line: underline;
+    color: white;
+    font-size: 13px;
+    line-height: 13px;
+    float: left;
+    position: relative;
+    bottom: 12px;
+}
+.readMore:hover {
+    color: #005CA0;
 }
