@@ -39,7 +39,8 @@
 }
 .menu   {
     position: absolute;
-    top: 40px;
+    top: 60px;
+    right: 120px;
 }
 nav > ul > li > a  {
     width: 100%;
@@ -56,5 +57,32 @@ nav > ul    {
 }
 .dropdown   {
     position: relative;
+}
+
+.dropdown-content   {
+    width: max-content;
+    display: none;
+    position: absolute;
+    /* left: 40px; */
+}
+ul  {
+    padding-right: 0px;
+}
+.dropdown:hover > .dropdown-content {
+    display: block;
+}
+nav > ul > li > a:hover, .dropdown:hover > a {
+    color: #005CA0;
+    text-decoration-line: underline;
+}
+.border   {
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+.menu-border    {
+    text-align: center;
+    border-left: 1px solid rgb(165, 165, 165);
+    border-right: 1px solid rgb(165, 165, 165);
+
+}
 
 
