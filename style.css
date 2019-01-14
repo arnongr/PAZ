@@ -63,10 +63,10 @@ nav > ul    {
     width: max-content;
     display: none;
     position: absolute;
-    /* left: 40px; */
 }
 ul  {
-    padding-right: 0px;
+    float: right;
+    padding-right: 10px;
 }
 .dropdown:hover > .dropdown-content {
     display: block;
