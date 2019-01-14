@@ -104,3 +104,11 @@ nav > ul > li > a:hover, .dropdown:hover > a {
     width: 293px;
     height: 355px;
 }
+.text-on-img    {
+    background-color: rgba(144,144,144,0.8);
+    color: white;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 260px;
+}
