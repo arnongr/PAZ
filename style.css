@@ -17,6 +17,16 @@ body    {
     width: 900px;
     height: 105px;
 }
+.logo   {
+    z-index: 50;
+    display: block;
+    width: 142px;
+    height: 93px;
+    position: absolute;
+    top: 30px;
+    right: 95px;
+    background: url(https://web.archive.org/web/20170614052512im_/http:/www.paz.co.il/images/paz_logo.png) repeat 0 0;
+}
 
 .language   {
     display: inline;
