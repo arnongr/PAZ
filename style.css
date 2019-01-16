@@ -99,6 +99,11 @@ nav > ul > li > a:hover, .dropdown:hover > a {
     width: 900px;
     height: 355px;
 }
+img.overlay    {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 .column-1   {
     display: inline;
     position: relative;
